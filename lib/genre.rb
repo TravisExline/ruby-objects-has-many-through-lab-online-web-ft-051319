@@ -13,6 +13,6 @@ class Genre
   end
 
   def songs
-    Song.all.each {|songs| song.genre}
+    Song.all.each {|songs| songs.genre}
   end
 end
