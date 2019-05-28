@@ -13,5 +13,6 @@ class Genre
   end
 
   def songs
+    Song.all.each {|songs| song.genre}
   end
 end
